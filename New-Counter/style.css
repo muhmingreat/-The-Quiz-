@@ -1,0 +1,31 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:9rem auto;
+}
+.container {
+    height: 15rem;
+    width:15rem;
+   background-color:beige;
+   /* border-radius: 14px 14px 19px rgb(32, 32, 38);  */
+   border-radius: 16px;
+}
+p {
+    font-size: 30px;
+    color:blue;
+    text-align: center;
+}
+.btnDiv {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-top:1rem; */
+}
+.btn {
+    padding: 0.5rem; 
+    border:none;
+    border-radius: 16px;
+
+}
